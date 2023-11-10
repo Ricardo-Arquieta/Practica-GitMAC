@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Cintillo superior de información */
+.info-superior{
+    margin: 0%;
+    height: 45px;
+    background-color: black;
+    padding: 0px;
+}
+
+ul {
+    margin: 0%;
+}
+
+.info-superior-item{
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.info-superior-p__item {
+    display:inline-block;
+    margin: 0,5,5,5px;
+}
+
+.info-superior-icon__item{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+
+.ub-infotop{
+    width: 20px;    
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.direccionsuperior{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.telefono-infotop{
+    width: 25px;
+    height: 23px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.phonesuperior{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.email-infotop{
+    width: 23px;
+    height: 23px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.mailsuperior{
+    margin-top: -15px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.info-superior p{
+    color: white;
+}
+
+
+
+/* Menú de navegación */
+
+.main-nav {
+    margin: 20px;
+    list-style: none; 
+    padding-left: 0;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
