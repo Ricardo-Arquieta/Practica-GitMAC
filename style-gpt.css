@@ -6,11 +6,13 @@
 
 
 
+
 /* Cintillo superior de información */
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .cintillo {
@@ -157,8 +159,10 @@ nav {
 
 /* Aquí termina la sección del NAV */
 
+
 /*Apartir de aquí iniciamos con el main y sus secciones*/
 
+/*Primer sección Banner Principal*/
 .main-content {
     background-image: url('./Iconos/imagenprueba.svg'); /* Reemplaza con la ruta correcta a tu imagen de fondo */
     background-size: cover;
@@ -176,13 +180,16 @@ nav {
 
 .main-content__title {
     font-size: 36px; /* Ajusta según sea necesario */
+    font-weight: 300;
     margin-bottom: 10px;
     color: #fc8f01;
 }
 
 .main-content__subtitle {
-    font-size: 24px; /* Ajusta según sea necesario */
+    font-size: 60px; /* Ajusta según sea necesario */
+    font-weight: 900;
     color: #ffffff; /* Puedes cambiar el color según tus preferencias */
+    white-space: pre-line; /* Esto permite que los saltos de línea en el código fuente generen saltos de línea en la pantalla */
 }
 
 .main-content__button {
@@ -191,10 +198,40 @@ nav {
     color: #fff;
     padding: 15px 30px;
     font-size: 18px;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
     position: absolute;
     bottom: 15px; /* Distancia desde la parte inferior del contenedor */
     left: 50%;
     transform: translateX(-50%);
+    /*Hay que realizar cambios en la tipografía, asì como el tamaño de la misma
+    además de dar unsalto de linea a la segunda frase*/
+}
+
+/* Aquì termina la sección del banner pincipal*/
+
+/*Inicio de la sección de iconos indormarivos Naranjas*/
+.bullet-section {
+    background-color: #212121;
+    width: 100%;
+    height: 425px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bullet-box {
+    text-align: center;
+}
+
+.bullet {
+    width: 100px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 100px;
+    margin-bottom: 8px; /* Espacio entre el icono y el texto */
+    fill: white; /* Color del icono */
+}
+
+.bullet-text {
+    color: white; /* Color del texto */
+    font-size: 20px;
 }
