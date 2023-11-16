@@ -262,6 +262,7 @@ nav {
 
 .right-box {
     background-color: #212121; /* O cualquier color de fondo para la caja derecha */
+    padding: 0px;
 }
 
 /* Estilos adicionales según necesidades */
@@ -286,3 +287,4 @@ nav {
     object-fit: cover; /* Para que la imagen se ajuste manteniendo las proporciones */
 }
 /*Final de sección Conózcanos Techno Ptencia*/
+
