@@ -214,7 +214,7 @@ nav {
 
 /* Aquì termina la sección del banner pincipal*/
 
-/*Inicio de la sección de iconos indormarivos Naranjas*/
+/*Inicio de la sección de iconos informativos Naranjas*/
 .bullet-section {
     background-color: #212121;
     width: 100%;
@@ -240,7 +240,7 @@ nav {
     font-size: 2rem;
 }
 
-/*Final de sección bullets*/
+/*Final de iconos informativos naranjas*/
 
 /*inicio de sección Conózcanos Techno Potencia*/
 .full-width-container {
@@ -259,6 +259,12 @@ nav {
     justify-content: center;
 }
 
+.half-width-box p {
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .left-box {
     background-color: #ff9900;
     color: #fff;
@@ -273,6 +279,7 @@ nav {
 .left-box h2 {
     font-size: 4rem;
     margin-bottom: 60px;
+    margin-left: 2rem;
 }
 
 .left-box p {
@@ -294,3 +301,7 @@ nav {
 }
 /*Final de sección Conózcanos Techno Ptencia*/
 
+.distribuidores-autorizados{
+    width: 100%;
+    height: 60.7rem;
+}
