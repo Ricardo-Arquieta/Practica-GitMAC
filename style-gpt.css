@@ -265,6 +265,10 @@ nav {
     margin-right: 2rem;
 }
 
+.half-width-box ul {
+    margin-left: 2rem;
+}
+
 .left-box {
     background-color: #ff9900;
     color: #fff;
